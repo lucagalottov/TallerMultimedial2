@@ -66,11 +66,11 @@ position: absolute;
 margin-left: 36vw;
 margin-top: 20vh;
 }
-#BR{
+.BR{
 fill: hsl(128, 100%, 65%);
 stroke-width: 2px;
 }
-#BR:hover{
+.BR:hover{
   stroke-width: 3px;
 }
 
