@@ -70,9 +70,10 @@
     <img src="img/datos.png" alt="Datos sobre la población vegana">
   </div>
 
-<div class="slideContainer">
-  <input type="range" min="0" max="3" value="0" id="myRange" class="slider" list="tickmarks">
-</div>
+  <div class="slideContainer">
+    <input type="range" min="0" max="3" value="0" id="myRange" class="slider" list="tickmarks" oninput="changeMap(this.value)"
+  onchange="changeMap(this.value)">
+  </div>
 
 <datalist id="tickmarks">
   <option value="0" label="2000"></option>
